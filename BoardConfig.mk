@@ -21,7 +21,7 @@
 TARGET_OTA_ASSERT_DEVICE := v410,e7,e7lte
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_e7att_defconfig
+TARGET_KERNEL_CONFIG := lgev410_ubports_defconfig
 
 # inherit from the proprietary version
 -include vendor/lge/v410/BoardConfigVendor.mk
